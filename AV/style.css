@@ -1,0 +1,257 @@
+/* latin */
+
+*{
+    font-family: 'Abel';
+}
+@font-face {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/abel/v18/MwQ5bhbm2POE2V9BPQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body{
+    font-family: 'Abel';
+    position: relative;
+    margin: 0;
+    font-family: "Alegreya", serif ;
+}
+
+header{
+    background-color: #FFF;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.optionsHeader{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#options{
+    font-family: 'Abel';
+    border: 0;
+    font-size: 1em;
+    background-color: #0000;
+}
+
+
+/* seção 1 */
+
+    .landingPage{
+        width: 100%;
+        margin: 0;
+        background-color: #CAFAD9;
+        padding: 3% 0 5% 0;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .titulos{
+      
+        width: 30%;
+        padding: 0 0px 0 85px;
+    
+    }
+
+    .title{
+        text-decoration: none !important;
+        font-family: 'Abel';
+        font-size: 4em;
+        line-height: 1em;
+        font-weight: 200;
+    }
+
+    .imglandingpage{
+        padding: 0% 5% 0% 0%;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+    }
+
+    .sub-title{
+        font-family: 'Abel';
+        font-weight: 200;
+    }
+
+    .buttom{
+        background-color: #7622D7;
+        padding: 10px 15px;
+        border-radius: 30px;
+        color: #fff;
+    }
+    .buttom2{
+        border: 1px solid #000;
+        padding: 10px 35px;
+        border-radius: 30px;
+        color: #000000;
+    }
+
+    .botoesHome{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* seção 2 - Recursos */
+    .recursos{
+        background-color: #F7F8F7;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .titleSection2{
+        width: 60%;
+        text-align: center;
+    }
+    .title2{
+        font-size: 2em;
+    }
+
+    .images-section2{
+        background-color: #F7F8F7;
+        padding-bottom: 3%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-section-2{
+        width: 3%;
+    }
+
+    .recursos2{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    /* seção 3 */
+    .section3{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  .imgcard2{
+    width: 100%;
+  }
+
+  .sectionCard{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card{
+    width: 60%;
+  }
+
+
+/* section 4 */
+
+.MaisRecursos{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkRecursos{
+    font-weight: 600;
+    padding: 1% 3% ;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+ 
+.ContrateRemotamente{
+    background-color: #CAFAD9;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContrateRemotamente2{
+    background-color: #CAFAD9;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+.Title-contrate{
+    font-size: 2em;
+}
+.divSubTitle{
+    width: 60%;
+}
+.SubTitle-contrate{
+    font-size: 1.2em;
+    text-align: center;
+}
+.divButtomSubTitle{
+    width: 10%;
+    background-color: #7622D7;
+    border-radius: 30px;
+}
+.SubTitle-contrate-Button{
+    text-align: center;
+    color: #fff;
+}
+
+.footer{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.RedesSociais{
+    width: 10%;
+}
+.redes{
+    display: block;
+    padding: 5px;
+    width: 20%;
+}
+.Contatos{
+    padding: 0 5%;
+}
+.RedesSociais{
+    padding: 0 5%;
+}
+.TittleContato{
+    font-size: 1.5em;
+}
+
+.foooter{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.fotter-foter{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
